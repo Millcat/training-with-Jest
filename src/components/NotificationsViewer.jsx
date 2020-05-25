@@ -19,10 +19,6 @@ export default class NotificationsViewer extends React.Component {
     });
   }
 
-  componentDidUpdate() {
-    console.log('componentDidUpdate count:', this.state.count);
-  }
-
   render() {
     return (
       <div className="mt-3 mb-2">
